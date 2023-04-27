@@ -56,7 +56,7 @@ node app.js
 
 After the program starts, you can either search for a process using its name (e.g. if you want to search for chrome, enter "chrome") or skip the search by pressing the ``'Enter/Return'`` key. Afterwards, you can select a process that you want to track from the list by navigating through it using the ``'UP' and 'Down' arrowkeys``.
 
-## Documentation
+## Technical Documentation
 ### Functions
 
 - **searchCPU(cpuModel)**: a function that takes in a cpuModel string and returns the TDP (Thermal Design Power) of the CPU. It uses the google-it package to search for the TDP of the CPU on the internet.
