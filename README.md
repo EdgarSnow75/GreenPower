@@ -3,13 +3,14 @@
 ## Description: 
 GreenPower is a power consumption calculator that can be used to measure the average powe consumption of a single program running on a Windows system in Watts(W) . The power consumption is measured based on the Thermal Design Power of the Central Processing Unit of the system and the CPU usage of that program ( Formula: CPU Usage / tdp * 100).
 
+You can check the [Demo](https://github.com/EdgarSnow75/GreenPower/blob/main/GreenPower%20Demo.mp4) to see how the program functions. You might have to download the file to view it.
 
 ## Information:
 
 This is an experimental program written by Edgar Snow for the technical assessment as part of the internship application for Greenie Web, a ClimateTech startup. It is a command-line application that shows a list of running processes where users can select a process to track the CPU power consumption of. 
 
 - Langauge: JavaScript 
-- Libraries Used: google-it, child_process, os, readline
+- Libraries Used: google-it, child_process, os, readline.
 - Run Time: Node.js
 
 ## How it works:
